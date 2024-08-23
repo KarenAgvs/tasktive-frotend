@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Dosis ;
+    src: url('../src/assets/fonts/Dosis-ExtraLight.woff') format('woff'),
+    url('../src/assets/fonts/Dosis-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Dosis;
+    src: url('../src/assets/fonts/Dosis-Medium.woff') format('woff'),
+    url('../src/assets/fonts/Dosis-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
